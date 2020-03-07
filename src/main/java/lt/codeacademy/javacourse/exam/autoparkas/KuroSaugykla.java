@@ -1,10 +1,14 @@
 package lt.codeacademy.javacourse.exam.autoparkas;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class KuroSaugykla {
     private int dyzelioKiekis;
     private int benzinoKiekis;
     private int dujuKiekis;
     private final int talpa;
+    LogPrinter logPrinter = new LogPrinter();
     public KuroSaugykla(int DyzelioKiekis, int BenzinoKiekis, int DujuKiekis,int Talpa) {
         this.dyzelioKiekis = DyzelioKiekis;
         this.benzinoKiekis = BenzinoKiekis;
@@ -28,12 +32,15 @@ public class KuroSaugykla {
         switch (kuroTipas) {
             case DUJOS:
                 dujuKiekis+=kiekis;
+                logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.DUJOS,kiekis);
                 break;
             case BENZINAS:
                 benzinoKiekis+=kiekis;
+                logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.BENZINAS,kiekis);
                 break;
             case DYZELIS:
                 dyzelioKiekis+=kiekis;
+                logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.DYZELIS,kiekis);
                 break;
         }
     }

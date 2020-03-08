@@ -1,0 +1,3 @@
+Data: Sun Mar 08 16:56:34 EET 2020 | Dyzelio kiekis: 80 l | Benzino kiekis: 20 | Duju kiekis: 17
+Data: Sun Mar 08 16:56:34 EET 2020 | Dyzelio kiekis: 0 l | Benzino kiekis: 0 | Duju kiekis: 0
+Data: Sun Mar 08 16:56:34 EET 2020 | Dyzelio kiekis: 50 l | Benzino kiekis: 0 | Duju kiekis: 0

@@ -99,4 +99,8 @@ public class Degaline implements DegalinesFunkcijos {
     public void issaugotiIFailaPildymoIsrasus() throws IOException {
         israsuSaugykla.issaugotiPildymoIsrasaIFaila();
     }
+
+    public void issaugotiIFailaKuroLikucius() throws IOException {
+        israsuSaugykla.issaugotiDegaluLikuciusIFaila(kuroSaugykla.getBenzinoKiekis(),kuroSaugykla.getDyzelioKiekis(),kuroSaugykla.getDujuKiekis());
+    }
 }

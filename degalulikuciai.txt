@@ -1,0 +1,6 @@
+**************************************
+****** DEGALINES KURO LIKUČIAI ******
+Benzino kiekis: 200 l
+Dyzelio kiekis: 200 l
+Duju kiekis: 80 l
+**************************************

@@ -7,9 +7,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 
-/**
- * Hello world!
- */
 public class App {
     private static final Logger LOG = LogManager.getLogger(App.class);
 
@@ -32,6 +29,7 @@ public class App {
                 degaline.printPilimoIsrasai();
                 degaline.issaugotiIFailaPilimoIsrasus();
                 degaline.issaugotiIFailaPildymoIsrasus();
+                degaline.issaugotiIFailaKuroLikucius();
             }
             catch (NepakankamasKuroLikutisDegalineje e) {
                 LOG.error(e.getMessage());

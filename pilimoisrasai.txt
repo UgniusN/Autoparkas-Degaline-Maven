@@ -1,0 +1,3 @@
+Data: Sun Mar 08 16:56:34 EET 2020 | Kiekis: 30 l | Kuras: DYZELIS | Masinos info: AutoNr: KJG135 , Kuro tipas: DYZELIS, Bako turis: 50, Kuro likutis: 46, Variklio Litrazas: 10
+Data: Sun Mar 08 16:56:34 EET 2020 | Kiekis: 17 l | Kuras: BENZINAS | Masinos info: AutoNr: TEG346 , Kuro tipas: BENZINAS, Bako turis: 1000, Kuro likutis: 217, Variklio Litrazas: 20
+Data: Sun Mar 08 16:56:34 EET 2020 | Kiekis: 50 l | Kuras: DYZELIS | Masinos info: AutoNr: EJT643 , Kuro tipas: DYZELIS, Bako turis: 1000, Kuro likutis: 150, Variklio Litrazas: 12

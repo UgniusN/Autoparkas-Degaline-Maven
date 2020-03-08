@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca7b35d9-5a1a-4165-919f-1cdf6b3940c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/degalulikuciai.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pildymoisrasai.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pilimoisrasai.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pilimoisrasais.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/Degaline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/Degaline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/KuroSaugykla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/KuroSaugykla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/PilimoIsrasas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/PilimoIsrasas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/TekstuSpausdinimas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/TransportoPriemone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/TransportoPriemone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +27,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YnsZIKWOHVQkK8JyKkcGdj1qCP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -83,13 +87,22 @@
       <option name="project" value="LOCAL" />
       <updated>1583633978272</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a function, where user can save receipts to file.">
+      <created>1583679070212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583679070213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added log4j2 to maven. Completed gas refiller car system." />
     <MESSAGE value="Added exceptions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exceptions." />
+    <MESSAGE value="Added a function, where user can save receipts to file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a function, where user can save receipts to file." />
   </component>
   <component name="WindowStateProjectService">
     <state x="986" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1583677298387">
@@ -108,30 +121,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="271" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583636277936" />
-    <state x="504" y="119" key="CommitChangelistDialog2" timestamp="1583633977591">
+    <state x="504" y="119" key="CommitChangelistDialog2" timestamp="1583679069402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="504" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583633977591" />
+    <state x="504" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583679069402" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1583589827885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583589827885" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583678999193">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583679393647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583678999193" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583678999192">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583679393647" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583679393646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583678999192" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583678999192">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583679393646" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583679393646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583678999192" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583678999192">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583679393646" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583679393646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583678999192" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583679393646" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583637196767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

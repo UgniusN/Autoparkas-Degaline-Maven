@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7b35d9-5a1a-4165-919f-1cdf6b3940c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="ca7b35d9-5a1a-4165-919f-1cdf6b3940c4" name="Default Changelist" comment="Added log4j2 to maven. Completed gas refiller car system.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/Degaline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/Degaline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/DegaluAtvezejas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/DegaluAtvezejas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/DegaluMasinosKuroTikrintuvas.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/Enums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/KuroSaugykla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/KuroSaugykla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/TransportoPriemone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/TransportoPriemone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/exceptions/NepakankamasKuroLikutisDegaluMasinoje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/exceptions/NepakankamasKuroTurisSaugykloje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/javacourse/exam/autoparkas/exceptions/NetelpaIBaka.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,7 +49,7 @@
       <module name="Autoparkas-Degaline-Maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lt.codeacademy.javacourse.exam.autoparkas.*" />
+          <option name="PATTERN" value="lt.codeacademy.javacourse.exam.autoparkas.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,36 +74,80 @@
       <option name="presentableId" value="Default" />
       <updated>1583589746755</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added log4j2 to maven. Completed gas refiller car system.">
+      <created>1583621267870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583621267870</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added log4j2 to maven. Completed gas refiller car system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added log4j2 to maven. Completed gas refiller car system." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1583633924209">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583633924209" />
     <state x="402" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583590333173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="402" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583590333173" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583632191017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583632191017" />
+    <state x="504" y="119" key="CommitChangelistDialog2" timestamp="1583628680720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="504" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583628680720" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1583589827885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583589827885" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583621132230">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583633686939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583621132230" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583621132229">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583633686939" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583633686939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583621132229" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583621132229">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583633686939" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583633686938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583621132229" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583621132229">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583633686938" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583633686939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583621132229" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583633686939" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583629951357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583629951357" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583629951357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583629951357" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583629951357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583629951357" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583629951357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583629951357" />
     <state x="668" y="146" key="refactoring.ChangeSignatureDialog" timestamp="1583590881208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="146" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583590881208" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583622917297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583622917297" />
   </component>
 </project>

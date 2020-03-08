@@ -1,6 +1,6 @@
 package lt.codeacademy.javacourse.exam.autoparkas;
 
-public abstract class TransportoPriemone {
+public class TransportoPriemone {
     private String autoNumeriai;
     private Enums.Kuras kuroTipas;
     private int bakoTuris;

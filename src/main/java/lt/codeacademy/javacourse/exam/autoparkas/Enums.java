@@ -2,7 +2,7 @@ package lt.codeacademy.javacourse.exam.autoparkas;
 
 public class Enums {
     enum Kuras {
-        DUJOS("dujų"),
+        DUJOS("duju"),
         DYZELIS("dyzelio"),
         BENZINAS("benzino"),
         ;

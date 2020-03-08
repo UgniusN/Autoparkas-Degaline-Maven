@@ -9,7 +9,8 @@ public class KuroSaugykla {
     private int dujuKiekis;
     private final int talpa;
     LogPrinter logPrinter = new LogPrinter();
-    public KuroSaugykla(int DyzelioKiekis, int BenzinoKiekis, int DujuKiekis,int Talpa) {
+
+    public KuroSaugykla(int DyzelioKiekis, int BenzinoKiekis, int DujuKiekis, int Talpa) {
         this.dyzelioKiekis = DyzelioKiekis;
         this.benzinoKiekis = BenzinoKiekis;
         this.dujuKiekis = DujuKiekis;
@@ -31,33 +32,37 @@ public class KuroSaugykla {
     public void papildytiDegalu(Enums.Kuras kuroTipas, int kiekis) {
         switch (kuroTipas) {
             case DUJOS:
-                dujuKiekis+=kiekis;
-                logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.DUJOS,kiekis);
+                dujuKiekis += kiekis;
+                if (kiekis != 0)
+                    logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.DUJOS, kiekis);
                 break;
             case BENZINAS:
-                benzinoKiekis+=kiekis;
-                logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.BENZINAS,kiekis);
+                benzinoKiekis += kiekis;
+                if (kiekis != 0)
+                    logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.BENZINAS, kiekis);
                 break;
             case DYZELIS:
-                dyzelioKiekis+=kiekis;
-                logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.DYZELIS,kiekis);
+                dyzelioKiekis += kiekis;
+                if (kiekis != 0)
+                    logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.DYZELIS, kiekis);
                 break;
         }
     }
 
-    public void pradetiPiltiKuraIsSaugyklos(Enums.Kuras kuras,int kiekis) {
+    public void pradetiPiltiKuraIsSaugyklos(Enums.Kuras kuras, int kiekis) {
         switch (kuras) {
             case DUJOS:
-                dujuKiekis-=kiekis;
+                dujuKiekis -= kiekis;
                 break;
             case BENZINAS:
-                benzinoKiekis-=kiekis;
+                benzinoKiekis -= kiekis;
                 break;
             case DYZELIS:
-                dyzelioKiekis-=kiekis;
+                dyzelioKiekis -= kiekis;
                 break;
         }
     }
+
     public int getTalpa() {
         return talpa;
     }

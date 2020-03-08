@@ -4,11 +4,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class KuroSaugykla {
-    private int dyzelioKiekis;
-    private int benzinoKiekis;
-    private int dujuKiekis;
+    private int dyzelioKiekis, benzinoKiekis, dujuKiekis;
+    private int pripiltaDyzelio, pripiltaBenzino, pripiltaDuju;
     private final int talpa;
     LogPrinter logPrinter = new LogPrinter();
+    PildymoIsrasas pildymoIsrasas;
 
     public KuroSaugykla(int DyzelioKiekis, int BenzinoKiekis, int DujuKiekis, int Talpa) {
         this.dyzelioKiekis = DyzelioKiekis;
@@ -16,7 +16,7 @@ public class KuroSaugykla {
         this.dujuKiekis = DujuKiekis;
         this.talpa = Talpa;
     }
-
+//pildymoIsrasas = new PildymoIsrasas(pripildytaDyzelio,pripildytaBenzino,pripildytaDuju);
     public int getDyzelioKiekis() {
         return dyzelioKiekis;
     }
@@ -30,18 +30,22 @@ public class KuroSaugykla {
     }
 
     public void papildytiDegalu(Enums.Kuras kuroTipas, int kiekis) {
+        int pripildytaDyzelio, pripildytaBenzino, pripildytaDuju;
         switch (kuroTipas) {
             case DUJOS:
+                pripiltaDuju = kiekis;
                 dujuKiekis += kiekis;
                 if (kiekis != 0)
                     logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.DUJOS, kiekis);
                 break;
             case BENZINAS:
+                pripiltaBenzino = kiekis;
                 benzinoKiekis += kiekis;
                 if (kiekis != 0)
                     logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.BENZINAS, kiekis);
                 break;
             case DYZELIS:
+                pripiltaDyzelio = kiekis;
                 dyzelioKiekis += kiekis;
                 if (kiekis != 0)
                     logPrinter.printPapildytaKuroDegalineje(Enums.Kuras.DYZELIS, kiekis);
@@ -65,5 +69,23 @@ public class KuroSaugykla {
 
     public int getTalpa() {
         return talpa;
+    }
+
+    public PildymoIsrasas grazintiIsrasa() {
+        return pildymoIsrasas;
+    }
+    public int getPripiltaDyzelio() {
+        return  pripiltaDyzelio;
+    }
+    public int getPripiltaDuju() {
+        return  pripiltaDuju;
+    }
+    public int getPripiltaBenzino() {
+        return  pripiltaBenzino;
+    }
+    public void resetCounter() {
+        pripiltaBenzino = 0;
+        pripiltaDuju = 0;
+        pripiltaDyzelio = 0;
     }
 }

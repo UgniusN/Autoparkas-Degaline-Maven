@@ -5,6 +5,8 @@ import lt.codeacademy.javacourse.exam.autoparkas.exceptions.NetelpaIBakaExceptio
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.IOException;
+
 /**
  * Hello world!
  */
@@ -24,13 +26,20 @@ public class App {
                 degaline.informacija();
                 degaluAtvezejas.gautiBenzovezioLikucius();
                 degaline.priimtiSunkvezimi(degaluAtvezejas);
-                degaline.piltiDegalus(autobusas, 210);
+                degaline.piltiDegalus(autobusas, 50);
+                degaline.priimtiSunkvezimi(degaluAtvezejas);
+                degaline.printPildymoIsrasai();
+                degaline.printPilimoIsrasai();
+                degaline.issaugotiIFailaPilimoIsrasus();
+                degaline.issaugotiIFailaPildymoIsrasus();
             }
             catch (NepakankamasKuroLikutisDegalineje e) {
                 LOG.error(e.getMessage());
             }
             catch (NetelpaIBakaException e) {
                 LOG.error(e.getMessage());
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        }
+    }
     }

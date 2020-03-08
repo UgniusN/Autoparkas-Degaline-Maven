@@ -3,9 +3,7 @@ package lt.codeacademy.javacourse.exam.autoparkas;
 public class TransportoPriemone {
     private String autoNumeriai;
     private Enums.Kuras kuroTipas;
-    private int bakoTuris;
-    private int likutis;
-    private int variklioLitrazas;
+    private int bakoTuris,variklioLitrazas,likutis;
     public TransportoPriemone(String AutoNumeriai, Enums.Kuras KuroTipas, int BakoTuris, int Likutis, int Litrazas) {
         this.autoNumeriai = AutoNumeriai;
         this.kuroTipas = KuroTipas;
